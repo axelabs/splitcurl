@@ -2,6 +2,7 @@
  
 #This Script utilizes curls ability to download files in parts
 #
+#Project:  http://code.google.com/p/splitcurl
 #License:  http://directory.fsf.org/wiki/License:BSD_3Clause
 
 function usage {
