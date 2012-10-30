@@ -47,7 +47,7 @@ done`
 case ${#OUT} in
 0)  clean;; #Curl error
 1)  ;; #Got a byte
-*)  echo Server does not spit...;SPLIT=1;; #Got more than asked for
+*)  echo Server does not spit...;SPLITNUM=1;; #Got more than asked for
 esac
  
 #Invoke curls
