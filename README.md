@@ -7,9 +7,8 @@ $ man curl |grep -A2 '\--range'
 ```
 Splitcurl is a bash wrapper that allows you to specify how many parts to split the download into:
 ```
-$ ./splitcurl
-http://mirrors.rutgers.edu/archlinux/iso/2012.10.06/archlinux-2012.10.06-dual.iso
-100 Downloading archlinux-2012.10.06-dual.iso in 100 parts: 435159040 / 435159040 bytes @ 22366 kb/s (100%).
+$ ./splitcurl http://mirrors.rutgers.edu/archlinux/iso/2012.10.06/archlinux-2012.10.06-dual.iso 100
+Downloading archlinux-2012.10.06-dual.iso in 100 parts: 435159040 / 435159040 bytes @ 22366 kb/s (100%).
 Files done! 
 ```
 Usage:
